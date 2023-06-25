@@ -5,6 +5,7 @@ Created on Sun Jun 25 22:06:24 2023
 @author: noco_
 """
 import dash
+import dash_bootstrap_components as dbc
 import dash_html_components as html
 import dash_core_components as dcc
 import pandas as pd
@@ -23,7 +24,7 @@ vars_EMPL = [var for var in df.columns if var.startswith('EMPL')]
 
 
 
-app = dash.Dash(__name__)
+app = dash.Dash(external_stylesheets=[dbc.themes.FLATLY])
 server = app.server
 
 sidebar = html.Div(
