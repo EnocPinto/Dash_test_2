@@ -25,6 +25,7 @@ vars_EMPL = [var for var in df.columns if var.startswith('EMPL')]
 
 
 app = dash.Dash(external_stylesheets=[dbc.themes.FLATLY])
+server = app.server
 
 sidebar = html.Div(
     [
