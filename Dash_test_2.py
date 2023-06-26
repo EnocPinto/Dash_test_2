@@ -42,7 +42,7 @@ sidebar = html.Div(
                 html.Div(
                     [
                         html.P(
-                            'Categorical Variable',
+                            'Total Assets',
                             style={'margin-top': '8px', 'margin-bottom': '4px'},
                             className='font-weight-bold'
                         ),
@@ -54,7 +54,7 @@ sidebar = html.Div(
                             style={'width': '320px'}
                         ),
                         html.P(
-                            'Continuous Variable',
+                            'Operating revenue (Turnover)',
                             style={'margin-top': '16px', 'margin-bottom': '4px'},
                             className='font-weight-bold'
                         ),
@@ -66,7 +66,7 @@ sidebar = html.Div(
                             style={'width': '320px'}
                         ),
                         html.P(
-                            'Continuous Variables for Correlation Matrix',
+                            'Number of employees',
                             style={'margin-top': '16px', 'margin-bottom': '4px'},
                             className='font-weight-bold'
                         ),
@@ -108,12 +108,12 @@ content = html.Div(
                             [
                                 dbc.Col(
                                     [
-                                        html.P('Distribution based on Industry')
+                                        html.P('Plot_1')
                                     ]
                                 ),
                                 dbc.Col(
                                     [
-                                        html.P('Distribution based on World region')
+                                        html.P('Plot_2')
                                     ]
                                 )
                             ],
@@ -138,12 +138,12 @@ content = html.Div(
                             [
                                 dbc.Col(
                                     [
-                                        html.P('Distribution based on Industry')
+                                        html.P('Plot_1')
                                     ]
                                 ),
                                 dbc.Col(
                                     [
-                                        html.P('Distribution based on World region')
+                                        html.P('Plot_2')
                                     ]
                                 )
                             ],
@@ -168,12 +168,12 @@ content = html.Div(
                             [
                                 dbc.Col(
                                     [
-                                        html.P('Distribution based on Industry')
+                                        html.P('Plot_1')
                                     ]
                                 ),
                                 dbc.Col(
                                     [
-                                        html.P('Distribution based on World region')
+                                        html.P('Plot_2')
                                     ]
                                 )
                             ],
